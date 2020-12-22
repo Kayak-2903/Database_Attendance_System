@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="start_screen" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" spacing="100.0" styleClass="start_screen" stylesheets="@fxml_dp.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dbms_project.LoginController">
+   <padding>
+      <Insets left="600.0" right="600.0" />
+   </padding>
+   <children>
+      <TextField fx:id="username" alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="400.0" promptText="Username" stylesheets="@fxml_dp.css" />
+      <PasswordField fx:id="password" alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" onKeyReleased="#update_password" prefHeight="50.0" prefWidth="400.0" promptText="Password" styleClass="text-field" />
+      <HBox alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="400.0" spacing="50.0">
+         <children>
+            <RadioButton fx:id="show_password" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#show_password_" prefHeight="50.0" prefWidth="70.0" styleClass="button">
+               <padding>
+                  <Insets left="21.0" />
+               </padding>
+            </RadioButton>
+            <Button fx:id="submit" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#submitt" prefHeight="50.0" prefWidth="100.0" text="Submit" textFill="#fffefe" />
+         </children>
+      </HBox>
+      <Button fx:id="back_button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#go_back" prefHeight="50.0" prefWidth="50.0" styleClass="back_button" />
+   </children>
+</VBox>

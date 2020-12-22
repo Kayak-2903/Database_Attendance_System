@@ -1,0 +1,134 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.label{
+    -fx-font-size: 30; 
+    -fx-text-fill:white;
+    -fx-background-color: linear-gradient(#3333ff,#33ccff);
+    -fx-border-color: white;
+    -fx-border-width: 10;
+    -fx-background-radius:70;
+    -fx-border-radius:70;
+    -fx-width:400;
+    -fx-height:50; 
+    -fx-font-weight:bold;
+}
+.text-field{
+    -fx-font-size: 20; 
+    -fx-background-radius:50;
+    -fx-border-radius:50;
+    -fx-cursor:text;
+    -fx-width:400;
+    -fx-height:50; 
+}
+.start_screen {
+    -fx-background-image: url("images/start_screen.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: stretch;
+}
+#teacher_start_button{
+    -fx-background-image:url("images/teacher_start_button.png");
+    -fx-background-size:230px;
+}
+#admin_start_button{
+    -fx-background-image:url("images/admin_start_button.png");
+
+    -fx-background-size:80%;
+}
+#student_start_button{
+    -fx-background-image:url("images/student_start_button.png");
+    -fx-background-size:100px;
+}
+#show_password{
+    -fx-background-image:url("images/eye.png");
+    -fx-background-size:stretch;
+}
+.button{
+    -fx-font-size:20;
+    -fx-cursor:hand;
+    -fx-radius:100;
+    -fx-background-repeat: no-repeat;
+    -fx-background-radius: 100;
+    -fx-border-radius:100;
+    -fx-background-color: linear-gradient(#3333ff,#33ccff);
+    -fx-background-position: center;
+}
+.button:hover{
+    -fx-background-color: linear-gradient(#000af6,#00ffff);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,.5,.5), -05,1,00,03);
+    -fx-font-weight: bold;
+    }
+.button:pressed{
+    -fx-effect: innershadow(three-pass-box, rgba(0,0,.75,.25), 05,1,0,02);
+}
+.options-button{
+    -fx-background-color: linear-gradient(#33ccff,#3333ff);
+    -fx-background-image:url("images/editorview.png");
+    -fx-background-size:contain;
+    -fx-font-size: 25;
+    -fx-text-fill: white;
+}
+.view-button{
+    -fx-background-image:url("images/view.png");
+}
+.table-view .column-header-background .label{
+    -fx-border-radius:0;
+    -fx-background-radius:0;
+    -fx-background-size:stretch;
+    -fx-padding-bottom: 0;
+    -fx-padding-left: 0;
+    -fx-padding-right: 0;
+    -fx-padding-top: 0;
+    -fx-border-width:0;
+    -fx-background-color: linear-gradient(#3333ff,#33ccff);
+    -fx-font-size: 100%;
+}
+.new-label{
+    -fx-background-radius:0;
+    -fx-border-radius: 0;
+    -fx-border-width:0;
+    -fx-font-size:20;
+}
+.back_button{
+    
+    -fx-background-image:url("images/back_icon.png");
+    -fx-background-size:stretch;
+    -fx-padding: 10;
+}
+.add_plus{
+    -fx-background-image:url("images/add_plus.png");
+    -fx-background-size:stretch;
+}
+.table-row-cell:empty{
+    -fx-background-color: white;
+}
+.table-row-cell:empty .table-cell{
+    -fx-border-width: 0px;
+}
+.table-row-cell:filled{
+    -fx-background-color: linear-gradient(#99ffff,#00ffff);  
+}
+.table-row-cell:selected .table-cell{
+    -fx-text-fill: #ffffff;
+    -fx-background-color: linear-gradient(#0000ff,#6666ff);
+}
+.increase_size{
+    -fx-font-size:30;
+    -fx-text-align: center;
+}
+.absent{
+    -fx-background-color: linear-gradient(#ff0000,#ff6666);
+}
+.present{
+    -fx-background-color: linear-gradient(#00cc00,#66ff66);
+}
+.date-picker{
+    -fx-background-color: white;
+}
+.date-picker .label{
+    -fx-background-radius:0;
+    -fx-border-radius: 0;
+    -fx-border-width:0;
+    -fx-font-size:20;
+}
